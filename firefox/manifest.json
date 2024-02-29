@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Imgbar",
+  "version": "0.0.1",
+  "description": "Helper extension to quickly edit an image with Imgbar.",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ]
+  }
+}

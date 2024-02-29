@@ -1,0 +1,21 @@
+{
+  "name": "extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "private": true,
+  "scripts": {
+    "watch-firefox": "nodemon build.js firefox watch",
+    "watch-chrome": "nodemon build.js chrome watch",
+    "build": "npm run build-firefox && npm run build-chrome",
+    "build-firefox": "node build.js firefox",
+    "build-chrome": "node build.js chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "nodemon": "^3.1.0"
+  }
+}
