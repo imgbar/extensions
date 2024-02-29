@@ -16,5 +16,11 @@
     "scripts": [
       "src/background.js"
     ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "2rlnlpvwa@mozmail.com",
+      "strict_min_version": "109.0"
+    }
   }
 }
