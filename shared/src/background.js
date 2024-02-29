@@ -4,8 +4,8 @@ if (typeof browser == 'undefined') {
 }
 
 // Setting BASE_URL which is used to determine the image editor's Url.
-const BASE_URL = 'http://127.0.0.1:5500';
-// const BASE_URL = 'https://imgbar.lol';
+// const BASE_URL = 'http://127.0.0.1:5500';
+const BASE_URL = 'https://imgbar.lol';
 
 /**
  * Called when the item has been created, or when creation failed due to an error. We'll just log success/failure here.
